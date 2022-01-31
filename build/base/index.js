@@ -19,10 +19,8 @@ function myFunction() {
     document.querySelector(".top-nav").classList.remove("top-nav-hide");
   }
 }
-/* window.onscroll = function () {
-  myFunction();
-};
 
+/* 
 function myFunction() {
   var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
   var elem = document.getElementById("main");
@@ -45,5 +43,5 @@ function myFunction() {
 $(window).on("load", function () {
   $(".loadingScreen").fadeOut("slow");
 });
- */
+  */
 console.log("Ola");

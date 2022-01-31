@@ -1,4 +1,4 @@
-const Scrollbar = window.Scrollbar;
+/* const Scrollbar = window.Scrollbar;
 
 Scrollbar.init(document.querySelector("#my-scrollbar"), {
   plugins: {
@@ -8,4 +8,4 @@ Scrollbar.init(document.querySelector("#my-scrollbar"), {
     },
   },
 });
-Scrollbar.use(window.OverscrollPlugin);
+Scrollbar.use(window.OverscrollPlugin); */

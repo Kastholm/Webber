@@ -1,6 +1,24 @@
 let blog_nav = document.querySelector("#blog-nav");
 let blog_arrow = document.querySelector("#blog-nav-arrow");
 
+/* window.onscroll = function () {
+  arrowHide();
+};
+function arrowHide() {
+  if (
+    document.body.scrollTop > 1050 ||
+    document.documentElement.scrollTop > 1050
+  ) {
+    blog_arrow.style.display = "none";
+    blog_nav.style.width = ".5em";
+    blog_arrow.classList.add("nav-rotate");
+  } else {
+    blog_arrow.style.display = "block";
+    blog_nav.style.width = "2.5em";
+    blog_arrow.style.right = "3%";
+    blog_arrow.classList.remove("nav-rotate");
+  }
+} */
 blogNav();
 window.addEventListener("resize", () => {
   blogNav();
@@ -13,7 +31,7 @@ window.addEventListener("resize", () => {
 });
 function blogNav() {
   if (window.innerWidth < 1024) {
-    blog_nav.style.width = "3.5em";
+    blog_nav.style.width = "2.5em";
     blog_nav.style.overflow = "hidden";
     blog_arrow.style.right = "3%";
   } else {
@@ -27,7 +45,7 @@ function blogNav() {
       blog_arrow.style.right = "55%";
     } else {
       blog_arrow.classList.remove("nav-rotate");
-      blog_nav.style.width = "3.5em";
+      blog_nav.style.width = "2.5em";
       blog_nav.style.overflow = "hidden";
       blog_arrow.style.right = "3%";
     }

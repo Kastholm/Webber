@@ -1,0 +1,48 @@
+// Base scss
+@import "../../scss/base/header.scss";
+@import "../../scss/base/baseline.scss";
+@import "../../scss/base/footer.scss";
+
+//Global Properties
+@import "../../scss/components/global/font-properties.scss";
+@import "../../scss/components/global/color-properties.scss";
+@import "../../scss/components/global/mix-in.scss";
+@import "../../scss/components/global/button.scss";
+@import "../../scss/components/global/loading-screen.scss";
+@import "../../scss/components/global/explore.scss";
+@import "../../scss/components/global/magic-mouse.scss";
+@import "../../scss/components/global/locomotive-scroll.scss";
+
+//Component Block Properties
+@import "../../scss/components/blocks/showcase-3D.scss";
+@import "../../scss/components/blocks/responsive-ani.scss";
+@import "../../scss/components/blocks/map.scss";
+@import "../../scss/components/blocks/banner-scroll-text.scss";
+
+//Component Portfolio Properties
+@import "../../scss/components/portfolio.scss";
+@import "../../scss/components/portfolio-single/portfolio-single.scss";
+@import "../../scss/components/portfolio-single/flickity-slider.scss";
+
+@import "../../scss/components/logo-ani.scss";
+@import "../../scss/components/persona_box.scss";
+
+.bg-main-green {
+  background-color: #2a9d8f;
+}
+
+.bg-main-blue {
+  background-color: #264653;
+}
+
+.bg-main-orange-100 {
+  background-color: #e9c46a;
+}
+
+.bg-main-orange-200 {
+  background-color: #f4a261;
+}
+
+.bg-main-orange-300 {
+  background-color: #e76f51;
+}

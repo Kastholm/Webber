@@ -6,3 +6,6 @@ scss/
 components/
 templates/
 img/
+
+# Local Netlify folder
+.netlify
