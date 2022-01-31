@@ -26,7 +26,7 @@ function openBrowser(done) {
 // https://www.npmjs.com/package/gulp-connect
 function server(done) {
   return connect.server({
-    root: "./build/pages/",
+    root: "./",
     port: 8080,
     debug: true,
   });
