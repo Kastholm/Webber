@@ -18,7 +18,7 @@ function openBrowser(done) {
   var options = {
     uri: "http://localhost:8080",
   };
-  return src("./build/pages/").pipe(open(options));
+  return src("./").pipe(open(options));
   done();
 }
 
